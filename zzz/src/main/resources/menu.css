@@ -1,0 +1,55 @@
+.language-choice-box {
+    -fx-background-color: #242424;
+    -fx-border-color: #ff9f1c;
+    -fx-border-width: 1px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-mark-color: #ff9f1c;
+}
+
+.language-choice-box > .label {
+    -fx-text-fill: #ffffff;
+}
+
+.context-menu {
+    -fx-background-color: #171717;
+    -fx-border-color: #ff9f1c;
+    -fx-border-width: 1px;
+}
+
+.menu-item {
+    -fx-background-color: #171717;
+}
+
+.menu-item .label {
+    -fx-text-fill: #ffffff;
+}
+
+.menu-item:focused {
+    -fx-background-color: #ff9f1c;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: #101010;
+}
+.choice-box .context-menu {
+    -fx-background-color: #242424;
+    -fx-border-color: #ff9f1c;
+    -fx-border-width: 1px;
+}
+
+.choice-box .menu-item {
+    -fx-background-color: #242424;
+}
+
+.choice-box .menu-item > .label {
+    -fx-text-fill: #ffffff;
+}
+
+.choice-box .menu-item:focused {
+    -fx-background-color: #ff9f1c;
+}
+
+.choice-box .menu-item:focused > .label {
+    -fx-text-fill: #111111;
+}
